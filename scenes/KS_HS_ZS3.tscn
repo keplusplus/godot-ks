@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/KS_HS.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/KS_ZS3.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/KS_HS_ZS3.gd" type="Script" id=3]
+
+[node name="KS_HS_ZS3" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="KS_ZS3" parent="." index="4" instance=ExtResource( 2 )]

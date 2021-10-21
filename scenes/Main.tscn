@@ -1,0 +1,155 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scenes/KS_HS.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/Main.gd" type="Script" id=2]
+[ext_resource path="res://scenes/KS_HS_ZS3.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/KS_VS.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/KS_VS_ZS3v.tscn" type="PackedScene" id=5]
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="KS_HS_1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 88.7699, 230.858 )
+
+[node name="1_0" type="Button" parent="KS_HS_1"]
+margin_left = -16.8663
+margin_top = 20.405
+margin_right = 21.1337
+margin_bottom = 40.405
+text = "HP0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1_1" type="Button" parent="KS_HS_1"]
+margin_left = -16.8837
+margin_top = 49.359
+margin_right = 21.1163
+margin_bottom = 69.359
+text = "KS1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1_Z" type="Button" parent="KS_HS_1"]
+margin_left = -29.7334
+margin_top = 77.681
+margin_right = 31.2666
+margin_bottom = 97.681
+text = "HP0ZS1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="KS_HS_4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 186.576, 230.858 )
+
+[node name="4_0" type="Button" parent="KS_HS_4"]
+margin_left = -16.866
+margin_top = 18.215
+margin_right = 21.134
+margin_bottom = 38.215
+text = "HP0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4_1_speed" type="LineEdit" parent="KS_HS_4"]
+margin_left = -27.1658
+margin_top = 46.9744
+margin_right = 30.8342
+margin_bottom = 70.9744
+max_length = 3
+placeholder_text = "speed"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4_1" type="Button" parent="KS_HS_4"]
+margin_left = -17.674
+margin_top = 79.6763
+margin_right = 20.326
+margin_bottom = 99.6763
+text = "KS1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4_ZS1" type="Button" parent="KS_HS_4"]
+margin_left = -30.5237
+margin_top = 108.172
+margin_right = 30.4763
+margin_bottom = 128.172
+text = "HP0ZS1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="KS_VS_1" parent="." instance=ExtResource( 4 )]
+position = Vector2( 286.181, 229.587 )
+
+[node name="5_1" type="Button" parent="KS_VS_1"]
+margin_left = -18.6502
+margin_top = 17.2587
+margin_right = 19.3498
+margin_bottom = 37.2587
+text = "KS1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="5_2" type="Button" parent="KS_VS_1"]
+margin_left = -18.6502
+margin_top = 47.501
+margin_right = 19.3498
+margin_bottom = 67.501
+text = "KS2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="KS_VS_2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 389.579, 230.858 )
+additional_light = 1
+
+[node name="6_1_speed" type="LineEdit" parent="KS_VS_2"]
+margin_left = -27.793
+margin_top = 110.344
+margin_right = 30.207
+margin_bottom = 134.344
+max_length = 3
+placeholder_text = "speed"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6_1" type="Button" parent="KS_VS_2"]
+margin_left = -33.7574
+margin_top = 142.737
+margin_right = 35.2426
+margin_bottom = 162.737
+text = "KS1 ZS3v"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6_2" type="Button" parent="KS_VS_2"]
+margin_left = -19.5235
+margin_top = 171.115
+margin_right = 18.4765
+margin_bottom = 191.115
+text = "KS2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_up" from="KS_HS_1/1_0" to="KS_HS_1" method="hp0"]
+[connection signal="button_up" from="KS_HS_1/1_1" to="KS_HS_1" method="ks1"]
+[connection signal="button_up" from="KS_HS_1/1_Z" to="KS_HS_1" method="hp0zs1"]
+[connection signal="button_up" from="KS_HS_4/4_0" to="KS_HS_4" method="hp0"]
+[connection signal="button_up" from="KS_HS_4/4_1" to="." method="hs4ks1"]
+[connection signal="button_up" from="KS_HS_4/4_ZS1" to="KS_HS_4" method="hp0zs1"]
+[connection signal="button_up" from="KS_VS_1/5_1" to="KS_VS_1" method="ks1"]
+[connection signal="button_up" from="KS_VS_1/5_2" to="KS_VS_1" method="ks2"]
+[connection signal="button_up" from="KS_VS_2/6_1" to="." method="vs2ks1"]
+[connection signal="button_up" from="KS_VS_2/6_2" to="KS_VS_2" method="ks2"]

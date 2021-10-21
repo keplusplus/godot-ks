@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "KS_HS",
+"language": "GDScript",
+"path": "res://scripts/KS_HS.gd"
+}, {
+"base": "Node2D",
+"class": "KS_VS",
+"language": "GDScript",
+"path": "res://scripts/KS_VS.gd"
+} ]
+_global_script_class_icons={
+"KS_HS": "",
+"KS_VS": ""
+}
+
+[application]
+
+config/name="PassInfSys.G"
+run/main_scene="res://scenes/Main.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
