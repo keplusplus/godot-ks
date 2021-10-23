@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://assets/png/ks/hs/ks_hs_weiss.png" type="Texture" id=1]
+[ext_resource path="res://assets/png/ks/hs/ks_hs_weiss_m.png" type="Texture" id=1]
 [ext_resource path="res://assets/png/ks/hs/ks_hs_gruen.png" type="Texture" id=2]
 [ext_resource path="res://assets/png/ks/hs/ks_hs_schirm.png" type="Texture" id=3]
 [ext_resource path="res://assets/png/ks/hs/ks_hs_rot.png" type="Texture" id=4]
 [ext_resource path="res://scripts/KS_HS.gd" type="Script" id=5]
+[ext_resource path="res://assets/png/ks/hs/ks_hs_gruen_d.png" type="Texture" id=6]
+[ext_resource path="res://assets/png/ks/hs/ks_hs_weiss_m_d.png" type="Texture" id=7]
+[ext_resource path="res://assets/png/ks/hs/ks_hs_rot_d.png" type="Texture" id=8]
 
 [node name="KS_HS" type="Node2D"]
 script = ExtResource( 5 )
@@ -14,17 +17,32 @@ position = Vector2( 0, -58.55 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 3 )
 
+[node name="rot_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 8 )
+
 [node name="rot" type="Sprite" parent="."]
 position = Vector2( 0, -58.55 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 4 )
+
+[node name="gruen_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 6 )
 
 [node name="gruen" type="Sprite" parent="."]
 position = Vector2( 0, -58.55 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 2 )
 
-[node name="weiss" type="Sprite" parent="."]
+[node name="weiss_m_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 7 )
+
+[node name="weiss_m" type="Sprite" parent="."]
 position = Vector2( 0, -58.55 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 1 )

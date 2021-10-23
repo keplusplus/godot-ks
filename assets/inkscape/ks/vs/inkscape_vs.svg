@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="inkscape_vs.svg">
+   sodipodi:docname="inkscape_vs.svg"
+   inkscape:export-filename="E:\Outsourced Documents\Godot Projects\PassInfSys.G\assets\png\ks\vs\ks_vs_weiss_ol.png"
+   inkscape:export-xdpi="350"
+   inkscape:export-ydpi="350">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="83.581228"
-     inkscape:cy="173.14901"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-80.812786"
+     inkscape:cy="162.2898"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer9"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -79,15 +82,16 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Ebene 1"
+     inkscape:label="Schirm"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-227)">
+     transform="translate(0,-227)"
+     style="display:inline">
     <rect
        style="opacity:1;fill:#1e1e1e;fill-opacity:1;stroke:none;stroke-width:0.35591;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect815"
@@ -95,49 +99,105 @@
        height="70"
        x="-8.8817842e-016"
        y="227" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Gelb dunkel"
+     style="display:inline">
     <circle
-       style="opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.13143425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       transform="translate(0,-227)"
+       style="display:inline;opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.13143425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path825-3-6"
        cx="35"
        cy="258"
        r="6" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Gelb"
+     style="display:inline">
     <circle
+       transform="translate(0,-227)"
        style="opacity:1;fill:#f7b10f;fill-opacity:1;stroke:none;stroke-width:0.13143425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path825"
        cx="35"
        cy="258"
        r="6" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Grün dunkel"
+     style="display:inline">
     <circle
-       style="opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.13143425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       transform="translate(0,-227)"
+       style="display:inline;opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.13143425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path825-3"
        cx="15"
        cy="258"
        r="6" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Grün"
+     style="display:inline">
     <circle
-       style="opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.06571712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path825-3-1"
-       cx="7"
-       cy="284"
-       r="3" />
-    <circle
+       transform="translate(0,-227)"
        style="opacity:1;fill:#0fe391;fill-opacity:1;stroke:none;stroke-width:0.13143425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path825-3-37"
        cx="15"
        cy="258"
        r="6" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Weiß UL dunkel"
+     style="display:inline">
     <circle
-       style="opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.06571712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path825-3-1-8"
-       cx="15"
-       cy="238"
+       transform="translate(0,-227)"
+       style="display:inline;opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.06571712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path825-3-1"
+       cx="7"
+       cy="284"
        r="3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Weiß UL"
+     style="display:inline">
     <circle
+       transform="translate(0,-227)"
        style="opacity:1;fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:0.06571712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path825-3-1-5"
        cx="7"
        cy="284"
        r="3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Weiß OL dunkel"
+     style="display:inline">
     <circle
+       transform="translate(0,-227)"
+       style="display:inline;opacity:1;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:0.06571712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path825-3-1-8"
+       cx="15"
+       cy="238"
+       r="3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Weiß OL"
+     style="display:inline">
+    <circle
+       transform="translate(0,-227)"
        style="opacity:1;fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:0.06571712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path825-3-1-5-8"
        cx="15"
