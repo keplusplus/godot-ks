@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scenes/KS_HS.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scripts/Main.gd" type="Script" id=2]
 [ext_resource path="res://scenes/KS_HS_ZS3.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/KS_VS.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/KS_VS_ZS3v.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/KS_MS.tscn" type="PackedScene" id=6]
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 2 )
@@ -146,6 +147,9 @@ text = "KS2"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="KS_MS" parent="." instance=ExtResource( 6 )]
+position = Vector2( 502.55, 291.874 )
 [connection signal="button_up" from="KS_HS_1/1_0" to="KS_HS_1" method="hp0"]
 [connection signal="button_up" from="KS_HS_1/1_1" to="KS_HS_1" method="ks1"]
 [connection signal="button_up" from="KS_HS_1/1_Z" to="KS_HS_1" method="hp0zs1"]

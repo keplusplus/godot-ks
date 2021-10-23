@@ -1,0 +1,96 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://assets/png/ks/ms/ks_ms_weiss_m_d.png" type="Texture" id=1]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_weiss_m.png" type="Texture" id=2]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_gelb_d.png" type="Texture" id=3]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_gelb.png" type="Texture" id=4]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_vorsicht_d.png" type="Texture" id=5]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_rot.png" type="Texture" id=6]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_rot_d.png" type="Texture" id=7]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_gruen.png" type="Texture" id=8]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_schirm.png" type="Texture" id=9]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_gruen_d.png" type="Texture" id=10]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_weiss_ul_d.png" type="Texture" id=11]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_vorsicht.png" type="Texture" id=12]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_weiss_ul.png" type="Texture" id=13]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_weiss_ol_d.png" type="Texture" id=14]
+[ext_resource path="res://assets/png/ks/ms/ks_ms_weiss_ol.png" type="Texture" id=15]
+[ext_resource path="res://scripts/KS_MS.gd" type="Script" id=16]
+
+[node name="KS_MS" type="Node2D"]
+script = ExtResource( 16 )
+
+[node name="schirm" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 9 )
+
+[node name="rot_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 7 )
+
+[node name="rot" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 6 )
+
+[node name="gelb_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 3 )
+
+[node name="gelb" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+
+[node name="gruen_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 10 )
+
+[node name="gruen" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 8 )
+
+[node name="vorsicht_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
+
+[node name="vorsicht" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 12 )
+
+[node name="weiss_m_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 1 )
+
+[node name="weiss_m" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="weiss_ul_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 11 )
+
+[node name="weiss_ul" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 13 )
+
+[node name="weiss_ol_d" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 14 )
+
+[node name="weiss_ol" type="Sprite" parent="."]
+position = Vector2( 0, -58.55 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 15 )
