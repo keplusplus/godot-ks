@@ -12,6 +12,8 @@ func hp0():
 	$rot.visible = true
 	$gruen.visible = false
 	$weiss_m.visible = false
+	$weiss_ul.visible = false
+	$vorsicht.visible = false
 
 func ks1():
 	zs1 = false

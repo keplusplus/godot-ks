@@ -19,9 +19,9 @@ func ks1_reduced(speed):
 	$gruen.visible = true
 	$gelb.visible = false
 	if additional_light == 1:
-		$weiss_oben.visible = true
+		$weiss_ol.visible = true
 	if additional_light == 2:
-		$weiss_unten.visible = true
+		$weiss_ul.visible = true
 	$KS_ZS3v.set_speed(speed)
 
 func ks2():

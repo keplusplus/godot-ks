@@ -44,7 +44,7 @@ position = Vector2( 0, -48.25 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 7 )
 
-[node name="weiss_oben" type="Sprite" parent="."]
+[node name="weiss_ol" type="Sprite" parent="."]
 position = Vector2( 0, -48.25 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 5 )
@@ -54,7 +54,7 @@ position = Vector2( 0, -48.25 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 8 )
 
-[node name="weiss_unten" type="Sprite" parent="."]
+[node name="weiss_ul" type="Sprite" parent="."]
 position = Vector2( 0, -48.25 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 3 )

@@ -10,7 +10,7 @@
 script = ExtResource( 2 )
 
 [node name="KS_HS_1" parent="." instance=ExtResource( 1 )]
-position = Vector2( 88.7699, 230.858 )
+position = Vector2( 211.033, 152.18 )
 
 [node name="1_0" type="Button" parent="KS_HS_1"]
 margin_left = -16.8663
@@ -43,7 +43,8 @@ __meta__ = {
 }
 
 [node name="KS_HS_4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 186.576, 230.858 )
+position = Vector2( 763.362, 196.33 )
+scale = Vector2( 0.4, 0.4 )
 
 [node name="4_0" type="Button" parent="KS_HS_4"]
 margin_left = -16.866
@@ -87,7 +88,7 @@ __meta__ = {
 }
 
 [node name="KS_VS_1" parent="." instance=ExtResource( 4 )]
-position = Vector2( 286.181, 229.587 )
+position = Vector2( 209.767, 405.623 )
 additional_light = 2
 
 [node name="5_1" type="Button" parent="KS_VS_1"]
@@ -111,7 +112,8 @@ __meta__ = {
 }
 
 [node name="KS_VS_2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 389.579, 230.858 )
+position = Vector2( 763.064, 373.145 )
+scale = Vector2( 0.4, 0.4 )
 additional_light = 1
 
 [node name="6_1_speed" type="LineEdit" parent="KS_VS_2"]
